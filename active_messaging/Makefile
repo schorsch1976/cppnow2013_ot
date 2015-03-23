@@ -7,7 +7,7 @@ else
 endif
 
 CXXFLAGS+=-std=c++11 
-LIBS=-lboost_system -lboost_program_options -lboost_serialization -lboost_program_options
+LIBS=-lboost_system -lboost_program_options -lboost_serialization -lboost_program_options -lpthread
 ADDITIONAL_SOURCES=runtime.cpp 
 PROGRAMS=hello_world 
 DIRECTORIES=build
